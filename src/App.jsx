@@ -21,7 +21,23 @@ const initialFormValues = {
 }
 
 const StyledApp = styled.div`
-background-color:red;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:  #f2e9dd;
+  font-family: 'Pangolin', cursive;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 `
 
 function App() {
